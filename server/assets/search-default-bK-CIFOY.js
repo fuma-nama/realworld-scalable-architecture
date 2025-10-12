@@ -1,5 +1,5 @@
 import { jsx, jsxs, Fragment as Fragment$1 } from "react/jsx-runtime";
-import { u as useOnChange, a as useI18n, S as Search, b as buttonVariants, c as useRouter, d as useEffectEvent, I as I18nLabel, C as ChevronRight, H as Hash } from "./server-build-Byanh-JZ.js";
+import { u as useOnChange, a as useI18n, S as Search, b as buttonVariants, c as useRouter, d as useEffectEvent, I as I18nLabel, C as ChevronRight, H as Hash } from "./server-build-BA_6yk4N.js";
 import { useState, useRef, createContext, useMemo, useEffect, Fragment, useContext, useCallback } from "react";
 import { twMerge } from "tailwind-merge";
 import { Dialog, DialogOverlay, DialogContent, DialogTitle } from "@radix-ui/react-dialog";
@@ -80,19 +80,19 @@ function useDocsSearch(clientOptions, _locale, _tag, _delayMs = 100, _allowEmpty
           return fetchDocs(debouncedValue, client);
         }
         if (client.type === "algolia") {
-          const { searchDocs } = await import("./algolia-IZEDLPHE-D0l8iaMB.js");
+          const { searchDocs } = await import("./algolia-IZEDLPHE-CJjnX9bZ.js");
           return searchDocs(debouncedValue, client);
         }
         if (client.type === "orama-cloud") {
-          const { searchDocs } = await import("./orama-cloud-74FM25SB-DsZzMWAY.js");
+          const { searchDocs } = await import("./orama-cloud-74FM25SB-DVgw-F1e.js");
           return searchDocs(debouncedValue, client);
         }
         if (client.type === "static") {
-          const { search: search2 } = await import("./static-A2YJ5TXV-CcKnzKW4.js");
+          const { search: search2 } = await import("./static-A2YJ5TXV-Bn-Sq-2m.js");
           return search2(debouncedValue, client);
         }
         if (client.type === "mixedbread") {
-          const { search: search2 } = await import("./mixedbread-RAHDVXGJ-DgjPiviY.js");
+          const { search: search2 } = await import("./mixedbread-RAHDVXGJ-Deo57Llw.js");
           return search2(debouncedValue, client);
         }
         throw new Error("unknown search client");

@@ -1,4 +1,4 @@
-import { s as searchSimple, f as searchAdvanced } from "./server-build-Byanh-JZ.js";
+import { s as searchSimple, f as searchAdvanced } from "./server-build-BA_6yk4N.js";
 import { create, load } from "@orama/orama";
 import "react/jsx-runtime";
 import "node:stream";
