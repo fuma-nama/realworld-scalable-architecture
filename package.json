@@ -2,11 +2,15 @@
   "name": "example-react-router",
   "private": true,
   "type": "module",
+  "homepage": "https://vahidvdn.github.io/realworld-scalable-architecture",
   "scripts": {
     "build": "react-router build",
     "dev": "react-router dev",
     "start": "react-router-serve ./build/server/index.js",
-    "typecheck": "react-router typegen && tsc"
+    "typecheck": "react-router typegen && tsc",
+    "prerender": "react-router prerender",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build/client"
   },
   "dependencies": {
     "@react-router/node": "^7.9.3",
@@ -26,6 +30,7 @@
     "@types/node": "^24.6.2",
     "@types/react": "^19.2.0",
     "@types/react-dom": "^19.2.0",
+    "gh-pages": "^6.3.0",
     "react-router-devtools": "^5.1.3",
     "tailwindcss": "^4.1.14",
     "typescript": "^5.9.3",
