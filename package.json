@@ -13,6 +13,7 @@
     "deploy": "gh-pages -d build/client"
   },
   "dependencies": {
+    "@orama/orama": "^3.1.16",
     "@react-router/node": "^7.9.3",
     "@react-router/serve": "^7.9.3",
     "fumadocs-core": "15.8.5",
