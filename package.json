@@ -1,8 +1,7 @@
 {
-  "name": "example-react-router",
+  "name": "realworld-scalable-architecture",
   "private": true,
   "type": "module",
-  "homepage": "https://vahidvdn.github.io/realworld-scalable-architecture",
   "scripts": {
     "build": "react-router build",
     "dev": "react-router dev",

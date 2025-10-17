@@ -21,14 +21,3 @@ export default {
     return paths;
   },
 } satisfies Config;
-
-// export default {
-//   ssr: true,
-//   async prerender({ getStaticPaths }) {
-//     const paths: string[] = [...getStaticPaths()];
-//     for await (const entry of glob('**/*.mdx', { cwd: 'content/docs' })) {
-//       paths.push(getUrl(getSlugs(entry)));
-//     }
-//     return paths;
-//   },
-// } satisfies Config;
