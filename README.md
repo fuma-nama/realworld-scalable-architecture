@@ -35,6 +35,7 @@ Example Diagram:
 Visit the learning hub to explore topics, diagrams, and guides:
 https://realworld-scalable-architecture.vercel.app/
 
+
 ## Contributing Content
 
 - Add or update materials in `content/docs/`.
@@ -53,5 +54,9 @@ pnpm dev
 # or
 yarn dev
 ```
+
+## Support
+
+If you find this helpful, please star the repository to support the project and help others discover it 🌟
 
 Built with ❤️ for the community of engineers learning scalable architecture. Powered by [Fumadocs](https://fumadocs.dev).
