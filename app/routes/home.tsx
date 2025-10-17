@@ -47,7 +47,7 @@ export default function Home() {
         <div className="p-4 flex flex-col items-center justify-center text-center z-10">
           <img width={85} height={85} className="mb-18 opacity-90 dark:hidden" src="logo.png" alt="Fumadocs" />
           <img width={85} height={85} className="mb-18 opacity-90 hidden dark:block" src="logo-dark.png" alt="Fumadocs" />
-          <h1 className="text-7xl font-black mb-12">
+          <h1 className="leading-[1.1] text-5xl sm:text-5xl md:text-6xl lg:text-7xl font-black mb-12">
             Real World <br /> Scalable Architecture.
           </h1>
           <p className="text-fd-muted-foreground mb-22 max-w-2xl text-lg font-extralight">
