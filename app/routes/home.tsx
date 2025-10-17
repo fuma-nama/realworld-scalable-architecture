@@ -50,15 +50,31 @@ export default function Home() {
           <h1 className="leading-[1.1] text-5xl sm:text-5xl md:text-6xl lg:text-7xl font-black mb-12">
             Real World <br /> Scalable Architecture.
           </h1>
-          <p className="text-fd-muted-foreground mb-22 max-w-2xl text-lg font-extralight">
+          <p className="text-fd-muted-foreground mb-20 max-w-2xl text-lg font-extralight">
             Practical insights and patterns for building real-world, scalable, and maintainable software architectures.
+            
           </p>
-          <Link
-            className="text-sm bg-fd-primary text-fd-primary-foreground rounded-full font-medium px-5 py-2.5 shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300"
-            to="/docs"
-          >
-            Open Docs
-          </Link>
+          
+          <div className="flex gap-4">
+            <Link
+              className="text-sm bg-fd-primary text-fd-primary-foreground rounded-full font-medium px-5 py-2.5 shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300"
+              to="/docs"
+            >
+              Open Docs
+            </Link>
+            <Link
+              className="text-sm bg-fd-secondary text-fd-secondary-foreground rounded-full font-medium px-5 py-2.5 shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300"
+              to="https://github.com/vahidvdn/realworld-scalable-architecture"
+              target="_blank"
+            >
+              Github
+            </Link>
+          </div>
+          {/* <GithubInfo
+            className='mb-2 mt-8'
+            owner="vahidvdn"
+            repo="realworld-scalable-architecture"
+          /> */}
         </div>
 
         {/* Keyframes */}
